@@ -8,7 +8,7 @@ import net.minecraft.item.ToolItem;
 
 public class GamblersCurse extends Enchantment {
     public GamblersCurse() {
-        super(Rarity.VERY_RARE, EnchantmentTarget.BREAKABLE, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
+        super(Rarity.VERY_RARE, EnchantmentTarget.DIGGER, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
     }
 
     public int getMinPower(int level) {
